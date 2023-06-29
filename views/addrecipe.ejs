@@ -1,0 +1,17 @@
+
+<%- include('partials/header') %>
+    <h2 class="text-center text-muted display-5 pt-3">Please add the Name of the Recipe and how to prepare it in the form given below</h2>
+
+    <form id="recipeForm" class="container" method="post" action="/">
+        <div class="mb-3">
+            <label for="recipeName" class="form-label label-text">Recipe Name</label>
+            <input type="text" class="form-control" name="recipeName" placeholder="Enter recipe name" autocomplete="off" required>
+        </div>
+        <div class="mb-3">
+            <label for="recipeInstructions" class="form-label label-text">Recipe Instructions</label>
+            <textarea class="form-control" name="recipeInstructions" rows="5" placeholder="Enter recipe instructions" autocomplete="off" required></textarea>
+        </div>
+            <button type="submit" name="button" class="btn btn-primary">Submit</button>
+    </form>
+
+<%- include('partials/footer') %>

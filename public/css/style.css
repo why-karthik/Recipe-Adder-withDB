@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 241, 241);
+}
+
+.container {
+    width: 100%;
+    margin-bottom: 10px 0 0 0;
+    padding: 20px;
+    background-color: rgb(72, 73, 75);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.customButton{
+    background:none; 
+    border:none; 
+    padding:0; 
+    color:blue; 
+    text-decoration:underline; 
+    cursor:pointer;
+}
+
+.footer{
+    text-align: center;
+    padding-top: 2em;
+    height: 5em;
+    color: rgb(208, 212, 216);
+    background-color: rgb(150, 148, 146);
+}
+
+.header{
+    height: 7em;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header .header-text{
+    text-align: center;
+    color: rgb(199, 202, 206);
+}
+
+.label-text{
+    color: antiquewhite;
+}
+
+

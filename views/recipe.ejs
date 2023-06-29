@@ -1,0 +1,14 @@
+
+<%- include('partials/header') %>
+<h2 class="text-center text-muted display-4">Scroll to find all the recipes</h2>
+
+<% allRecipes.forEach((recipe, index) => { %>
+  <div class="d-flex justify-content-center flex-column align-items-center">
+      <h2 class="title text-center"><%= recipe.name %></h2>
+      <div class="text-center">
+          <p><%= recipe.content.slice(0,100) %>...<a href="/recipe/<%= recipe.name %>/<%= recipe._id %>">Read More</a></p>
+      </div>
+  </div>          
+<% }); %>
+<%- include('partials/footer') %>
+    
